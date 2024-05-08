@@ -49576,10 +49576,10 @@ const Qj = /* @__PURE__ */ cl(gj, [["render", qj]]), yj = { class: "platform__me
   setup(i) {
     const e = i, r = e1(!1), n = V0(() => e.links.find((a) => a.type === e.type));
     function t() {
-      r.value = !0;
+      console.log("in"), r.value = !0;
     }
     function o() {
-      r.value = !1;
+      console.log("out"), r.value = !1;
     }
     return (a, s) => (B0(), G0("div", yj, [
       K0("div", {
