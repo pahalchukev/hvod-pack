@@ -1187,9 +1187,9 @@ const f5 = /* @__PURE__ */ K0("div", { class: "fixed inset-0 bg-black/25" }, nul
                   default: qe(() => [
                     At(ai(a5), {
                       class: g1([{
-                        "w-1/4": i.size === "small",
-                        "w-1/2": i.size === "medium",
-                        "w-full": i.size === "large",
+                        "w-1/4 min-w-[300px]": i.size === "small",
+                        "w-1/2 min-w-[300px]": i.size === "medium",
+                        "w-full min-w-[300px]": i.size === "large",
                         "max-w-max min-w-[300px]": i.size === "content"
                       }, "transform rounded bg-white p-6 text-left align-middle shadow-xl transition-all"])
                     }, {

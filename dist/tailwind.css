@@ -5248,6 +5248,7 @@ video::-webkit-media-text-track-display {
   border: solid 1px #d6d8dc;
   width: 148px;
   padding: 0 16px;
+  justify-content: center;
 }
 
 .platform__menu-items {
